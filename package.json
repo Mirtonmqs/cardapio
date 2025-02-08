@@ -1,16 +1,15 @@
 {
   "name": "cardapio",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@tailwindcss/cli": "^4.0.0",
-    "tailwindcss": "^4.0.0"
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
   }
 }
